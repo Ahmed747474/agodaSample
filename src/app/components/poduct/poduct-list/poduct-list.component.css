@@ -1,0 +1,8 @@
+.product-continer {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin: 10px;
+}

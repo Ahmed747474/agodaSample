@@ -1,0 +1,9 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <span>Ahmed Store</span>
+        <span class="spacer"></span>
+        <mat-icon matBadge="{{(totalCart | async)?.length}}" matBadgeColor="warn">shopping_basket </mat-icon>
+
+    </mat-toolbar-row>
+
+</mat-toolbar>
